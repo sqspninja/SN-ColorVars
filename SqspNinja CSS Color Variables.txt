@@ -1,0 +1,26 @@
+<script src="/s/sn-colorvariables.js"></script>
+<script>
+  // Define the custom color names, below are the default ones
+  // User-defined color names can include capital letters and you can make them more related to the actual color. blue, red, orange, teal, etc.
+
+  //in CSS you will use your variables like this using either the default ones or your custom ones.
+
+  /*
+selector {
+	color: var(--accentVar);
+    background-color: var(--blackVar);
+    border-color: var(--lightAccentVar);
+}
+*/
+
+  const myColors = [
+    'whiteVar',
+    'lightAccentVar',
+    'accentVar',
+    'darkAccentVar',
+    'blackVar'
+  ];
+
+  // Call the colorVars function with the custom arguments
+  colorVars(myColors);
+</script>
